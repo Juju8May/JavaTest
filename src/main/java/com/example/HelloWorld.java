@@ -12,6 +12,14 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         System.out.println("Hello World");
+        BuildingHouse eins = new BuildingHouse(1000);
+        BuildingHouse zwei = new BuildingHouse(3000);
+        System.out.println(eins);
+        System.out.println(zwei);
+        BuildingHouse.tenant = 4;
+        System.out.println(eins);
+        System.out.println(zwei);
+        
     }
     
     /**
